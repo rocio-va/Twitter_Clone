@@ -1,0 +1,156 @@
+.fixed-header{
+    height: 46px;
+    width: 100%;
+    color: gray;
+    font-size: 1.4rem;
+    background-color: white;
+    top: 0;
+    position: fixed;
+    padding: 10px;
+    z-index: 15;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    border-bottom: 5px solid #1da1f2;
+    text-decoration: none;
+    color: #009999;
+}
+
+.letter-blue{
+    color: #009999;
+}
+
+.index i{
+    color: #1da1f2;
+    font-size: 2.5rem;
+}
+
+.index p{
+    display: inline-block;
+    color: gray;
+    padding-left: 10px;
+}
+
+.login{
+    text-align: right;
+}
+
+.login input{
+    border-radius: 20px;
+    background-color: #EEE;
+}
+
+.login p{
+    display: inline-block;
+    color: gray;
+    padding-left: 10px;
+}
+
+.input-search{
+    width: 300px;
+    display: inline-block;
+}
+
+.img-fondo{
+    width: 100%;
+}
+
+.img-fondo img{
+    width: 100%;
+}
+
+.twitter-box{
+    background-color: #F1F1F1;
+    margin: 0;
+}
+
+.twitter-nav{
+    background-color: white;
+    border-bottom: 1px solid gray;
+    height: 85px;
+}
+
+.info-nav a{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+    color: black;
+}
+
+.btn-follow{
+    margin-top: 11px;
+}
+
+.profile-photo{
+    height: 200px;
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 12px;
+    position: relative;
+    z-index: 10;
+    margin-bottom: -120px;
+    top: -127px;
+    left: 35px;
+}
+
+.profile-photo img{
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+.user-info{
+    padding-left: 35px;
+}
+
+.user-info a{
+    color: black;
+}
+
+.tweets-box{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    /*height: 200px;*/
+    margin-top: 10px;
+}
+
+.tweets-box nav{
+    padding: 10px;
+    font-size: 1.6rem;
+}
+
+.new-user{
+    background-color: #e1e8ed;
+    border-radius: 10px; 
+    margin-top: 10px;
+}
+
+.new-user:first-child{
+    padding: 1px 15px 15px;
+}
+
+.new-user button{
+    background-color: #1da1f2;
+    color: white;
+}
+
+.tweet-example{
+    border-top: 1px solid gray;
+    margin: 0;
+}
+
+.tweet-example img{
+    width: 55px;
+    height: 55px;
+    margin: 10px 25px;
+}
+
+
+
